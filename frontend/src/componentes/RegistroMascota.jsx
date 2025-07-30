@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 import '../estilos/PaginaUsuario.css';
 
 export default function RegistroMascota() {
+  // Hooks
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     nombre: '',
